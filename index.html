@@ -1,21 +1,97 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عدن طه | Adan Taha</title>
     <link rel="stylesheet" href="style.css">
-    <title>موقعي الأول</title>
+    <!-- استيراد خط تجريدي أنيق -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <h1>أهلاً وسهلاً 👋</h1>
+    <!-- القائمة العلوية -->
+    <nav class="navbar">
+        <div class="logo">عدن<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">عني</a></li>
+            <li><a href="#skills">المهارات</a></li>
+            <li><a href="#projects">المشاريع</a></li>
+        </ul>
+        <button id="theme-toggle" class="btn-secondary">🌙 Mode</button>
+    </nav>
 
-    <p>هذا أول موقع إلي!</p>
+    <!-- الهيرو / القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>أهلاً بك، أنا <span class="highlight">عدن طه</span></h1>
+            <p>مكودة ومطورة مواقع شغوفة بإنشاء تجارب ويب حديثة وتفاعلية.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">استكشف أعمالي</a>
+                <a href="#contact" class="btn-secondary">تواصل معي</a>
+            </div>
+        </div>
+    </section>
 
-    <button onclick="showMessage()">اضغط هنا</button>
+    <!-- قسم عني -->
+    <section id="about" class="section">
+        <h2>نبذة عني</h2>
+        <p class="section-desc">
+            أنا في بداية رحلتي الرائعة في عالم تطوير الويب. أحب تحويل الأفكار الإبداعية إلى مواقع ويب حقيقية تعمل بكفاءة عالية وتصاميم مبهرة.
+        </p>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="section bg-alt">
+        <h2>المهارات والتخصصات</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">💻</div>
+                <h3>تطوير الواجهات</h3>
+                <p>بناء بناء هياكل مواقع متناسقة ومنظمة باستخدام HTML5.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎨</div>
+                <h3>التصميم والتنسيق</h3>
+                <p>تنسيق الألوان والتجربة البصرية وجعل الموقع متجاوبًا مع الشاشات بـ CSS3.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">⚡</div>
+                <h3>التفاعلية</h3>
+                <p>إضافة أفكار وميزات تفاعلية ذكية بـ JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المشاريع -->
+    <section id="projects" class="section">
+        <h2>مشاريعي</h2>
+        <div class="cards-grid">
+            <div class="card project-card">
+                <h3>موقعي الشخصي الأول</h3>
+                <p>موقع مكتمل مبني بـ HTML, CSS, JavaScript ومرفوع على Vercel.</p>
+                <span class="tag">مكتمل ✅</span>
+            </div>
+            <div class="card project-card">
+                <h3>مشروع تطبيق قادم</h3>
+                <p>تطبيق تفاعلي أنيق تحت الإنشاء وسيتم إطلاقه قريباً.</p>
+                <span class="tag">قريباً ⏳</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل والتذييل -->
+    <footer id="contact" class="footer">
+        <h2>لنعمل معاً!</h2>
+        <p>هل لديك فكرة مشروع أو تريد التواصل؟</p>
+        <div class="socials">
+            <a href="https://github.com/adantaha2212-janat" target="_blank" class="social-link">GitHub</a>
+            <a href="mailto:adantaha2212@gmail.com" class="social-link">Email</a>
+        </div>
+        <p class="copyright">جميع الحقوق محفوظة © 2026 - عدن طه</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
-
 </html>
