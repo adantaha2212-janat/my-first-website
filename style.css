@@ -3,8 +3,8 @@
     --bg-alt: #ffffff;
     --text-color: #0f172a;
     --text-muted: #475569;
-    --primary-color: #4f46e5;
-    --primary-hover: #4338ca;
+    --primary-color: #e18132;
+    --primary-hover: #db9b6b;
     --card-bg: #ffffff;
     --border-color: #e2e8f0;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -15,8 +15,8 @@ body.dark-mode {
     --bg-alt: #1e293b;
     --text-color: #f8fafc;
     --text-muted: #94a3b8;
-    --primary-color: #6366f1;
-    --primary-hover: #818cf8;
+    --primary-color: #e18132;
+    --primary-hover: #db9b6b;
     --card-bg: #1e293b;
     --border-color: #334155;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
